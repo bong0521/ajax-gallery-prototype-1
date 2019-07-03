@@ -2,7 +2,8 @@
 	var distance=0;
 	var liLi=document.querySelectorAll(".controller li");
 	var gallery=document.querySelector(".picture ul");
-	var requestURL="../data/img_path.json";
+	//var requestURL="../data/img_path.json";
+	var requestURL="data/img_path.json";
 	var request=new XMLHttpRequest();
 	var appendHtml="";
 
